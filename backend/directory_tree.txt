@@ -1,0 +1,93 @@
+simroel-py-v3
+├── api
+├── auxiliar
+│   ├── constants.py
+│   ├── functions.py
+│   ├── __init__.py
+│   └── __pycache__
+├── core
+│   ├── directory_tree.txt
+│   ├── fes.py
+│   ├── __init__.py
+│   ├── parameters.json
+│   ├── pcc.py
+│   ├── pcep.py
+│   ├── pce.py
+│   ├── __pycache__
+│   ├── simroel.py
+│   ├── simroel_thread.py
+│   ├── simulate_and_summarize.py
+│   └── simulation.py
+├── crosstalk
+│   ├── crosstalk_main.py
+│   ├── crosstalk_utils.py
+│   └── __init__.py
+├── data
+│   ├── 2022-09-02-12-00-46-traffic.csv
+│   ├── 2022-09-09-15-06-46-traffic.csv
+│   ├── confidence_interval.csv
+│   ├── crosstalk
+│   ├── fiber_config
+│   ├── osnr
+│   ├── parameters.json
+│   ├── topologies
+│   ├── tracer.txt
+│   └── tracer_v1.csv
+├── endpoints.py
+├── env
+│   ├── Lib
+│   ├── pyvenv.cfg
+│   ├── Scripts
+│   └── share
+├── files
+│   ├── file_manager.py
+│   ├── __init__.py
+│   ├── parameters.py
+│   ├── properties.py
+│   └── __pycache__
+├── main.py
+├── needs_profiling.prof
+├── osnr
+│   ├── __init__.py
+│   ├── osnr_main.py
+│   └── osnr_utils.py
+├── parameters.json
+├── __pycache__
+│   ├── endpoints.cpython-311.pyc
+│   ├── endpoints.cpython-313.pyc
+│   ├── main.cpython-311.pyc
+│   └── main.cpython-313.pyc
+├── requirements.txt
+├── Result
+│   ├── cenario1_FF_est1.csv
+│   ├── cenario1_FF_estrat2.csv
+│   ├── cenario1_FF_psd.csv
+│   ├── FF_est1.csv
+│   ├── new_FF_est2.csv
+│   └── results_simulation.csv
+├── routing
+│   └── router.py
+├── statistics
+│   └── stats.py
+├── utils
+│   ├── assignment.py
+│   ├── confidence_interval.py
+│   ├── connection.py
+│   ├── fiber.py
+│   ├── modulation.py
+│   ├── old_Crosstalk.py
+│   ├── old_crosstalk_utils.py
+│   ├── stats.py
+│   └── topology.py
+└── venv
+|   ├── bin
+|   ├── include
+|   ├── lib
+|   ├── lib64 -> lib
+|   ├── pyvenv.cfg
+|   └── share
+└──endpoints.py
+└──main.py
+└──paramenters.json
+└──plotgraph.py
+30 directories, 62 files
