@@ -1,0 +1,5 @@
+[build]
+  # O comando que o Netlify executará para construir seu site
+  command = "bash ./netlify-build.sh"
+  # O diretório que o Netlify deve publicar após o build
+  publish = "dist" # Certifique-se de que seu build.ts gera os arquivos aqui
